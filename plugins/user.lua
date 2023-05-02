@@ -59,16 +59,17 @@ return {
 
   -- Mise en place des commandes lspsaga
   vim.keymap.set("n", "gh", "<cmd>Lspsaga lsp_finder<CR>"),
-
+  --
   -- Code action
   vim.keymap.set({ "n", "v" }, "<leader>lsa", "<cmd>Lspsaga code_action<CR>"),
-
+  --
   -- Rename all occurrences of the hovered word for the entire file
   vim.keymap.set("n", "gr", "<cmd>Lspsaga rename<CR>"),
-
+  --
   -- Rename all occurrences of the hovered word for the selected files
   vim.keymap.set("n", "gr", "<cmd>Lspsaga rename ++project<CR>"),
 
+  --
   -- Peek definition
   -- You can edit the file containing the definition in the floating window
   -- It also supports open/vsplit/etc operations, do refer to "definition_action_keys"

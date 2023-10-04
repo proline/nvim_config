@@ -64,10 +64,10 @@ return {
   vim.keymap.set({ "n", "v" }, "<leader>lsa", "<cmd>Lspsaga code_action<CR>"),
   --
   -- Rename all occurrences of the hovered word for the entire file
-  vim.keymap.set("n", "gr", "<cmd>Lspsaga rename<CR>"),
+  vim.keymap.set("n", "rh", "<cmd>Lspsaga rename<CR>"),
   --
   -- Rename all occurrences of the hovered word for the selected files
-  vim.keymap.set("n", "gr", "<cmd>Lspsaga rename ++project<CR>"),
+  vim.keymap.set("n", "eg", "<cmd>Lspsaga rename ++project<CR>"),
 
   --
   -- Peek definition

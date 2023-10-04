@@ -17,7 +17,9 @@ return {
     },
   },
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  -- colorscheme = "iceberg",
+  colorscheme = "catppuccin-latte", --flavor latte, frappe, macchiato, mocha
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,

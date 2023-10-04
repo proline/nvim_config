@@ -58,7 +58,7 @@ return {
   -- },
 
   -- Mise en place des commandes lspsaga
-  vim.keymap.set("n", "gh", "<cmd>Lspsaga lsp_finder<CR>"),
+  vim.keymap.set("n", "gh", "<cmd>Lspsaga finder<CR>"),
   --
   -- Code action
   vim.keymap.set({ "n", "v" }, "<leader>lsa", "<cmd>Lspsaga code_action<CR>"),

@@ -19,7 +19,10 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
   -- colorscheme = "iceberg",
-  colorscheme = "catppuccin-latte", --flavor latte, frappe, macchiato, mocha
+  -- colorscheme = "catppuccin-latte", --flavor latte, frappe, macchiato, mocha
+  colorscheme = "everforest",
+  -- vim.g.everforest_ui_contrast = "high"
+
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,

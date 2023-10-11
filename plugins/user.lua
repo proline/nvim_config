@@ -88,7 +88,7 @@ return {
   vim.keymap.set("n", "gt", "<cmd>Lspsaga peek_type_definition<CR>"),
 
   -- Go to type definition
-  vim.keymap.set("n", "gt", "<cmd>Lspsaga goto_type_definition<CR>"),
+  vim.keymap.set("n", "gy", "<cmd>Lspsaga goto_type_definition<CR>"),
 
 
   -- Show line diagnostics
@@ -142,4 +142,7 @@ return {
 
   -- Floating terminal
   vim.keymap.set({ "n", "t" }, "<A-d>", "<cmd>Lspsaga term_toggle<CR>"),
+
+  --everforest contrast
+  -- vim.g.everforest_ui_contrast = "high",
 }

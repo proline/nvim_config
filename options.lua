@@ -4,7 +4,8 @@ return {
     -- set to true or false etc.
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
-    spell = false, -- sets vim.opt.spell
+    spell = false, -- sets vim.opt.spell faire pour voir mondes 
+    spelllang = en_us,fr ;
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     -- everforest theme options
@@ -21,6 +22,7 @@ return {
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     everforest_ui_contrast = "high", -- options low, high
     everforest_background = "soft", -- options hard, medium, soft, 
+    spellfile_URL = "https://ftp.nluug.nl/vim/runtime/spell/"
   },
 }
 -- If you need more control, you can use the function()...end notation

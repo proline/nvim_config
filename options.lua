@@ -5,7 +5,7 @@ return {
     relativenumber = true, -- sets vim.opt.relativenumber
     number = true, -- sets vim.opt.number
     spell = false, -- sets vim.opt.spell faire pour voir mondes 
-    spelllang = en_us,fr ;
+    spelllang = {"en_us","fr"} ;
     signcolumn = "auto", -- sets vim.opt.signcolumn to auto
     wrap = false, -- sets vim.opt.wrap
     -- everforest theme options
